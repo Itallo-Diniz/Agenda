@@ -1,3 +1,5 @@
+print("Agenda telefonica")
+
 agenda = {}
 
 def adiciona_contato(contato):
