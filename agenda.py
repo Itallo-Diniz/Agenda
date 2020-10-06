@@ -9,6 +9,6 @@ def adiciona_contato(dic,contato):
 def exibe_contato(dic,nome):
     return dic[nome]
 
-adiciona_contato(agenda,"Yude 40028922")
+adiciona_contato(agenda,"Yude 40028922") //exemplo
 assert agenda == {"Yude":"40028922"}
 assert(exibe_contato(agenda,"Yude") == "40028922")
